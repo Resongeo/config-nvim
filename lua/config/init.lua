@@ -1,3 +1,5 @@
+require('config.options')
+
 -- Setup Lazy.nvim package manager
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
