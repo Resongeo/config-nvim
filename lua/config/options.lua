@@ -19,6 +19,7 @@ opt.relativenumber = true
 
 -- Appearance
 opt.termguicolors = true
+opt.showmode = false
 
 -- Remaps
 vim.keymap.set('n', '<leader>e', vim.cmd.Ex)
