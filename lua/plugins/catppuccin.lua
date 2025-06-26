@@ -7,6 +7,7 @@ return {
                 macchiato = {
                     base = "#1e1e1e",
                     mantle = "#212121",
+                    crust = "#ffffff",
                 }
             }
         })

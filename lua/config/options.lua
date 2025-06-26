@@ -21,3 +21,4 @@ opt.relativenumber = true
 opt.termguicolors = true
 opt.showmode = false
 vim.opt.winborder = "rounded"
+
