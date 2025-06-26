@@ -21,9 +21,9 @@ opt.relativenumber = true
 opt.termguicolors = true
 
 -- Remaps
-vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
-vim.keymap.set("n", "<A-Up>", ":m -2<CR>==", {noremap = true, silent = true})
-vim.keymap.set("n", "<A-Down>", ":m +1<CR>==", {noremap = true, silent = true})
+vim.keymap.set('n', '<leader>e', vim.cmd.Ex)
+vim.keymap.set('n', '<A-Up>', ':m -2<CR>==', {noremap = true, silent = true})
+vim.keymap.set('n', '<A-Down>', ':m +1<CR>==', {noremap = true, silent = true})
 
 -- Copy yank to clipboard
 vim.keymap.set('n', 'y', '"+y')
