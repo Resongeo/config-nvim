@@ -10,8 +10,13 @@ local lsp = vim.lsp
 vim.keymap.set('i', '<C-s>', lsp.buf.signature_help)
 vim.keymap.set('n', '<leader>gd', lsp.buf.definition)
 vim.keymap.set('n', '<leader>rr', lsp.buf.rename)
+vim.keymap.set('n', '<leader>qf', lsp.buf.code_action)
 
 -- Copy yank to clipboard
 vim.keymap.set('n', 'y', '"+y')
 vim.keymap.set('n', 'yy', '"+yy')
 vim.keymap.set('v', 'y', '"+y')
+
+-- Telescope
+local builtin = require('telescope.builtin')
+vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
