@@ -31,8 +31,8 @@ return {
 		custom_catppuccin.command.b.fg = "#cad3f5"
 		custom_catppuccin.inactive.b.fg = "#cad3f5"
 
-		custom_catppuccin.normal.c.fg = "#6e738d"
-		custom_catppuccin.normal.c.bg = "#242424"
+        custom_catppuccin.normal.c.fg = "#6e738d"
+        custom_catppuccin.normal.c.bg = "#242424"
 
 		require("lualine").setup({
 			options = {
