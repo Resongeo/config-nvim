@@ -1,5 +1,6 @@
 vim.lsp.enable({
     "clangd",
+    "rust-analyzer",
 })
 
 vim.diagnostic.config({
