@@ -8,6 +8,7 @@ return {
         ["rust-analyzer"] = {
             check = {
                 command = "clippy",
+                extraArgs = { "--target", "x86_64-unknown-none" }
             },
             diagnostics = {
                 enable = true,

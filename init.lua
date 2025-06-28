@@ -1,14 +1,7 @@
 require('core.lsp')
-
-require('config.options')
-
 require('core.lazy')
 
+require('config.options')
 require('config.keymaps')
+require('config.visuals')
 
-vim.api.nvim_set_hl(0, "Pmenu", {
-    bg = "NONE",
-})
-vim.api.nvim_set_hl(0, "CmpPmenu", {
-    bg = "NONE",
-})
