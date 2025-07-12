@@ -8,6 +8,7 @@ return {
         configs.setup({
             ensure_installed = {
                 "c", "cpp", "cmake",
+                "rust",
                 "lua",
             },
             sync_install = false,
