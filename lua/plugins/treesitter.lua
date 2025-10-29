@@ -10,6 +10,7 @@ return {
                 "c", "cpp", "cmake",
                 "rust",
                 "lua",
+                "odin",
             },
             sync_install = false,
             highlight = {enable = true},

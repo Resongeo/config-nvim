@@ -1,5 +1,6 @@
 vim.lsp.enable({
     "clangd",
+    "ols",
     "rust-analyzer",
     "cmake",
 })
