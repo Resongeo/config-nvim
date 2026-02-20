@@ -9,7 +9,11 @@ return {
                     mantle = "#212121",
                     crust = "#ffffff",
                 }
-            }
+            },
+            custom_highlights = function(colors)
+                return {
+                }
+            end,
         })
     end
 }

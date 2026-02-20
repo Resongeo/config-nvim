@@ -40,3 +40,48 @@ end)
 vim.keymap.set('n', '<leader>4', function()
    ui.nav_file(4)
 end)
+
+-- Dap
+local dap = require('dap')
+local dapui = require('dapui')
+local dap_vt = require('nvim-dap-virtual-text')
+
+vim.keymap.set('n', '<leader>dt', function()
+    dap.toggle_breakpoint()
+end)
+
+vim.keymap.set('n', '<leader>dc', function()
+    dap.continue()
+end)
+
+vim.keymap.set('n', '<leader>di', function()
+    dap.step_into()
+end)
+
+vim.keymap.set('n', '<leader>do', function()
+    dap.step_over()
+end)
+
+vim.keymap.set('n', '<leader>du', function()
+    dap.step_out()
+end)
+
+vim.keymap.set('n', '<leader>dq', function()
+    dap.terminate()
+    dapui.close()
+    dap_vt.toggle()
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
