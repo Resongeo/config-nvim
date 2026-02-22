@@ -72,7 +72,11 @@ vim.keymap.set('n', '<leader>dq', function()
     dap_vt.toggle()
 end)
 
-
+-- Indent with Tab and Shift Tab
+vim.keymap.set('n', '<Tab>', '>>')
+vim.keymap.set('n', '<S-Tab>', '<<')
+vim.keymap.set('v', '<Tab>', '>')
+vim.keymap.set('v', '<S-Tab>', '<')
 
 
 
