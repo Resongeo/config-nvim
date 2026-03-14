@@ -1,11 +1,11 @@
 vim.lsp.enable({
-   "clangd",
-   "ols",
-   "rust-analyzer",
    "cmake",
-   "tombi",
-   "basedpyright",
-   "tsgo",
+   "cpp",
+   "odin",
+   "python",
+   "rust",
+   "toml",
+   "typescript",
 })
 
 vim.diagnostic.config({
