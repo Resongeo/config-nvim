@@ -11,7 +11,10 @@ return {
                 "rust",
                 "lua",
                 "odin",
-                "markdown", "markdown_inline"
+                "markdown", "markdown_inline",
+                "toml",
+                "python",
+                "javascript", "typescript"
             },
             sync_install = false,
             highlight = {enable = true},
