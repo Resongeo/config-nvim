@@ -78,7 +78,8 @@ vim.keymap.set('n', '<S-Tab>', '<<')
 vim.keymap.set('v', '<Tab>', '>')
 vim.keymap.set('v', '<S-Tab>', '<')
 
-
+-- Select
+vim.keymap.set('n', '<leader>sa', 'ggVG')
 
 
 
