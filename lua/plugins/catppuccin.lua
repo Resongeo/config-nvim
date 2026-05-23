@@ -5,7 +5,7 @@ return {
         require("catppuccin").setup({
             color_overrides = {
                 macchiato = {
-                    base = "#1e1e1e",
+                    base = "#222226",
                     mantle = "#212121",
                     crust = "#ffffff",
                 }
